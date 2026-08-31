@@ -28,9 +28,9 @@ fp-info-cache
 *.dsn
 *.ses
 
-# Exported BOM files
+# Exported BOM files (KiCad dumps these next to the project)
 *.xml
-*.csv
+hardware/**/*.csv
 
 ### KiCad Patch ###
 rescue-backup/
@@ -38,8 +38,11 @@ rescue-backup/
 *.tsv
 bom/
 
-# Gerber export output
+# Gerber / plot output
 out/
+
+# KiCad editor lock files
+*.lck
 
 ### Linux ###
 
