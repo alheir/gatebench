@@ -1665,12 +1665,9 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:BAT54J"
-			(pin_numbers
-				(hide yes)
-			)
+		(symbol "Diode:BAV199DW"
 			(pin_names
-				(offset 1.016)
+				(offset 0.0254)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1688,8 +1685,8 @@
 					)
 				)
 			)
-			(property "Value" "BAT54J"
-				(at 0 -2.54 0)
+			(property "Value" "BAV199DW"
+				(at 0 5.08 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1698,8 +1695,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Diode_SMD:D_SOD-323F"
-				(at 0 -4.445 0)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+				(at 0 -12.7 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -1709,7 +1706,7 @@
 					)
 				)
 			)
-			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
+			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30417.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1720,7 +1717,7 @@
 					)
 				)
 			)
-			(property "Description" "30V 200mA Schottky diode, SOD-323F"
+			(property "Description" "Quad Surface Mount Low Leakage Diode, SOT-363"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1731,7 +1728,17 @@
 					)
 				)
 			)
-			(property "ki_keywords" "diode Schottky"
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Quad diode"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1742,7 +1749,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "D*SOD?323F*"
+			(property "ki_fp_filters" "SOT?363*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1753,34 +1760,10 @@
 					)
 				)
 			)
-			(symbol "BAT54J_0_1"
+			(symbol "BAV199DW_0_1"
 				(polyline
 					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
+						(xy -5.08 0) (xy 5.08 0)
 					)
 					(stroke
 						(width 0)
@@ -1790,12 +1773,95 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 			)
-			(symbol "BAT54J_1_1"
+			(symbol "BAV199DW_1_1"
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -3.81 0 0)
+					(at -7.62 0 0)
 					(length 2.54)
-					(name "K"
+					(name "A1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1811,9 +1877,9 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 7.62 0 180)
 					(length 2.54)
-					(name "A"
+					(name "K2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1821,6 +1887,92 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K3A4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "BAV199DW_2_1"
+				(polyline
+					(pts
+						(xy 6.35 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K1A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "A3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "K4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2367,12 +2519,6 @@
 		(uuid "18285366-7113-435b-a6e2-2775552baf87")
 	)
 	(junction
-		(at 111.76 88.9)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3bbaef6c-9197-4c82-a961-5fe3dd34789c")
-	)
-	(junction
 		(at 238.76 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2413,6 +2559,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e2ab979-02b5-4461-8a28-a6e7191a9cc4")
+	)
+	(junction
+		(at 116.84 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "abdab839-5243-4862-9e64-37e1ade20863")
 	)
 	(junction
 		(at 57.15 91.44)
@@ -2738,6 +2890,26 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 88.9) (xy 123.19 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ababbe3-460a-44eb-aeaa-c272248b34b7")
+	)
+	(wire
+		(pts
+			(xy 111.76 78.74) (xy 111.76 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b2c036b-9405-48e1-a8ca-663eeddaa6cf")
+	)
+	(wire
+		(pts
 			(xy 215.9 74.93) (xy 217.17 74.93)
 		)
 		(stroke
@@ -2775,16 +2947,6 @@
 			(type default)
 		)
 		(uuid "7b478514-0fb1-4fd9-bdf5-66dc5f053269")
-	)
-	(wire
-		(pts
-			(xy 111.76 87.63) (xy 111.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b609c42-4d2a-4082-aa60-9ec1b290c873")
 	)
 	(wire
 		(pts
@@ -2858,16 +3020,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 78.74) (xy 111.76 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9578adfc-dbac-427c-8af7-3a73431a69cf")
-	)
-	(wire
-		(pts
 			(xy 76.2 127) (xy 76.2 129.54)
 		)
 		(stroke
@@ -2908,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 88.9) (xy 111.76 88.9)
+			(xy 107.95 88.9) (xy 116.84 88.9)
 		)
 		(stroke
 			(width 0)
@@ -2925,16 +3077,6 @@
 			(type default)
 		)
 		(uuid "b50860a2-22d5-48fe-bd28-f20771639c04")
-	)
-	(wire
-		(pts
-			(xy 111.76 88.9) (xy 123.19 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b778a328-76da-47b4-a6ad-bc5264526115")
 	)
 	(wire
 		(pts
@@ -3135,16 +3277,6 @@
 			(type default)
 		)
 		(uuid "f9111201-b334-453e-8dcb-021348982936")
-	)
-	(wire
-		(pts
-			(xy 111.76 90.17) (xy 111.76 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fae2ece0-d76d-4028-9c80-cfd0decf5548")
 	)
 	(wire
 		(pts
@@ -3398,7 +3530,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "018756d5-bdae-45ca-ac87-52587097df4c")
-		(property "Reference" "#PWR0178"
+		(property "Reference" "#PWR0153"
 			(at 111.76 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -3458,7 +3590,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0178")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -3476,7 +3608,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "088f29a4-a244-40be-8081-c5d353b342f4")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0151"
 			(at 85.09 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -3536,7 +3668,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0165")
+					(reference "#PWR0151")
 					(unit 1)
 				)
 			)
@@ -3554,7 +3686,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1fcfbf51-7030-4ef7-bf02-ce4c8a59e815")
-		(property "Reference" "#PWR0224"
+		(property "Reference" "#PWR0158"
 			(at 237.49 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -3614,7 +3746,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0224")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -3632,7 +3764,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "210b2dd4-f1e8-42e9-a0bc-97705fe6612a")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0156"
 			(at 215.9 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3692,7 +3824,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0160")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -3709,7 +3841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "278d69c5-0dc7-4b58-aed8-b5ce3ae98357")
-		(property "Reference" "C17"
+		(property "Reference" "C14"
 			(at 69.85 87.63 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3782,7 +3914,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "C17")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -3800,7 +3932,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3173b502-5019-4bfd-bfff-d14a7f0659b9")
-		(property "Reference" "R99"
+		(property "Reference" "R77"
 			(at 53.34 97.282 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3873,7 +4005,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "R99")
+					(reference "R77")
 					(unit 1)
 				)
 			)
@@ -3891,7 +4023,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "43c7d010-9d50-4806-9113-9e347c41e584")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0160"
 			(at 238.76 73.66 0)
 			(hide yes)
 			(show_name no)
@@ -3951,7 +4083,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0171")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -3969,7 +4101,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "458634b3-8586-4616-b151-d582eb040524")
-		(property "Reference" "U9"
+		(property "Reference" "U6"
 			(at 41.275 84.455 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4048,7 +4180,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "U9")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -4066,7 +4198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45a8aba2-ffc7-47a0-8736-a822ebbee494")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0145"
 			(at 67.31 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -4126,7 +4258,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0163")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -4144,7 +4276,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49e9d8ac-127e-4118-9a6b-0d03295b1a84")
-		(property "Reference" "#PWR0226"
+		(property "Reference" "#PWR0147"
 			(at 76.2 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -4204,7 +4336,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0226")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -4222,7 +4354,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "524f59f0-9d9c-42b5-944d-20fa76468281")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0146"
 			(at 67.31 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -4282,7 +4414,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0164")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -4300,7 +4432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "537a29d9-3891-418d-ba0f-55ff4af5605b")
-		(property "Reference" "#PWR0228"
+		(property "Reference" "#PWR0155"
 			(at 132.08 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4360,7 +4492,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0228")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -4378,7 +4510,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "590273dd-ee49-4a67-9258-b869272f03ed")
-		(property "Reference" "U4"
+		(property "Reference" "U7"
 			(at 219.3133 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4478,7 +4610,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "U4")
+					(reference "U7")
 					(unit 1)
 				)
 			)
@@ -4496,7 +4628,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e3a7687-7d34-412b-b07d-7c477ee41f04")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0154"
 			(at 111.76 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4556,7 +4688,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0161")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -4573,7 +4705,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "626f4050-6c41-4c3b-9a0c-6f151d3f0e72")
-		(property "Reference" "R91"
+		(property "Reference" "R81"
 			(at 79.248 142.748 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4646,7 +4778,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "R91")
+					(reference "R81")
 					(unit 1)
 				)
 			)
@@ -4664,7 +4796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "63728131-a2ea-43ee-9b76-d1f0d2ace27f")
-		(property "Reference" "C35"
+		(property "Reference" "C16"
 			(at 91.44 142.2399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4739,89 +4871,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54J")
-		(at 111.76 93.98 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6a4f44dc-7dfc-4752-8199-3835b3b7a8c4")
-		(property "Reference" "D23"
-			(at 114.3 92.3924 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54J"
-			(at 114.3 94.9324 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 107.315 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
-			(at 111.76 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "30V 200mA Schottky diode, SOD-323F"
-			(at 111.76 93.98 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ac6e3853-d4e0-428a-aea0-3fc8863aefd2")
-		)
-		(pin "1"
-			(uuid "3fe820a6-abfc-4bd6-9e54-878bea12cae2")
-		)
-		(instances
-			(project "gatebench"
-				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "D23")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -4839,7 +4889,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "737b42a3-1c47-458f-bff1-57aa35b0336f")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0148"
 			(at 76.2 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -4899,7 +4949,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0166")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -4917,7 +4967,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e0d0a6b-3297-4c5a-8f58-e295be2a11c1")
-		(property "Reference" "TP44"
+		(property "Reference" "TP28"
 			(at 98.044 122.428 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4979,7 +5029,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "TP44")
+					(reference "TP28")
 					(unit 1)
 				)
 			)
@@ -4997,7 +5047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "818e6cf6-d0ef-434e-b526-dad58a837937")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 93.345 81.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5062,7 +5112,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -5080,7 +5130,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "828cdd8e-3ecb-47bc-83c0-01f16d42d385")
-		(property "Reference" "#PWR0229"
+		(property "Reference" "#PWR0144"
 			(at 49.53 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -5140,89 +5190,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0229")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Diode:BAT54J")
-		(at 111.76 83.82 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8bf1d8d1-397d-4290-9794-a3d587337831")
-		(property "Reference" "D22"
-			(at 114.3 82.2324 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BAT54J"
-			(at 114.3 84.7724 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
-			(at 107.315 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAT54J.pdf"
-			(at 111.76 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "30V 200mA Schottky diode, SOD-323F"
-			(at 111.76 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "af8a6c47-c48b-417f-9518-6b8ad18b22e4")
-		)
-		(pin "1"
-			(uuid "e51f72c9-edd8-4a31-b89f-9066c64dfef2")
-		)
-		(instances
-			(project "gatebench"
-				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "D22")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -5239,7 +5207,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8c906a82-3414-4210-8a43-61a9853380d5")
-		(property "Reference" "C36"
+		(property "Reference" "C17"
 			(at 135.89 92.71 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5314,7 +5282,100 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "C36")
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV199DW")
+		(at 111.76 88.9 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8dbe5b68-3bdb-4382-af4e-f692fe7b84d0")
+		(property "Reference" "D8"
+			(at 118.364 85.09 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BAV199DW"
+			(at 123.698 91.44 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6"
+			(at 124.46 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30417.pdf"
+			(at 111.76 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Quad Surface Mount Low Leakage Diode, SOT-363"
+			(at 111.76 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d4674a56-8e50-4610-91c1-bca39ad46c20")
+		)
+		(pin "3"
+			(uuid "bf7bd4df-538d-48a0-b547-83c52245dd06")
+		)
+		(pin "6"
+			(uuid "9c908dd7-051d-40a5-aa77-d15f5a474e5b")
+		)
+		(pin "4"
+			(uuid "bac3c748-8c94-4e7f-b07f-1f233b5662e7")
+		)
+		(pin "5"
+			(uuid "924f1825-ba3c-4f2c-bf01-946dbe4760de")
+		)
+		(pin "1"
+			(uuid "00881441-63d1-4451-8444-ff060ad9452a")
+		)
+		(instances
+			(project "gatebench"
+				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -5332,7 +5393,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8f0c6135-155e-4086-bcfe-b539632826b0")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0150"
 			(at 76.2 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -5392,7 +5453,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0168")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -5409,7 +5470,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "96cf03eb-901b-47a5-bb96-ae4d8d706a59")
-		(property "Reference" "R87"
+		(property "Reference" "R83"
 			(at 104.14 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5482,7 +5543,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "R87")
+					(reference "R83")
 					(unit 1)
 				)
 			)
@@ -5500,7 +5561,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c9fb27e-bf0b-4319-9010-688befb23cab")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0149"
 			(at 76.2 130.81 0)
 			(hide yes)
 			(show_name no)
@@ -5560,7 +5621,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0167")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -5577,7 +5638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9df76f50-0adf-426e-a864-bcffe203fd8c")
-		(property "Reference" "R96"
+		(property "Reference" "R82"
 			(at 78.74 36.068 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5650,7 +5711,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "R96")
+					(reference "R82")
 					(unit 1)
 				)
 			)
@@ -5668,7 +5729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a69f3b0f-b5ab-45a2-a0cd-3ad7f8972e4b")
-		(property "Reference" "TP6"
+		(property "Reference" "TP24"
 			(at 66.04 68.2624 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5730,7 +5791,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "TP6")
+					(reference "TP24")
 					(unit 1)
 				)
 			)
@@ -5748,7 +5809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a7408811-95c9-4c28-a5bb-842ca98a8e3e")
-		(property "Reference" "TP4"
+		(property "Reference" "TP25"
 			(at 66.04 79.6924 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5810,7 +5871,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "TP4")
+					(reference "TP25")
 					(unit 1)
 				)
 			)
@@ -5828,7 +5889,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab8244e8-9112-4cd2-877e-a59e57a93dae")
-		(property "Reference" "TP40"
+		(property "Reference" "TP23"
 			(at 56.134 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5890,7 +5951,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "TP40")
+					(reference "TP23")
 					(unit 1)
 				)
 			)
@@ -5908,7 +5969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afcb5067-665b-413e-ac64-b7c6ae46465a")
-		(property "Reference" "C34"
+		(property "Reference" "C15"
 			(at 88.9 40.6399 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5983,7 +6044,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "C34")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -6001,7 +6062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b531dfb5-89e1-47d7-9169-4689d198440e")
-		(property "Reference" "R90"
+		(property "Reference" "R80"
 			(at 78.74 132.0799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6066,7 +6127,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "R90")
+					(reference "R80")
 					(unit 1)
 				)
 			)
@@ -6083,7 +6144,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdac7ce8-80d3-4049-9ccc-37e80619f7d4")
-		(property "Reference" "R92"
+		(property "Reference" "R85"
 			(at 242.062 72.644 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6156,7 +6217,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "R92")
+					(reference "R85")
 					(unit 1)
 				)
 			)
@@ -6173,7 +6234,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c63483e3-6425-473a-8d23-d178b75e9ca1")
-		(property "Reference" "R89"
+		(property "Reference" "R78"
 			(at 79.248 86.868 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6246,7 +6307,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "R89")
+					(reference "R78")
 					(unit 1)
 				)
 			)
@@ -6263,7 +6324,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d18838ff-dbaa-4190-b009-235d48b9cfd5")
-		(property "Reference" "R88"
+		(property "Reference" "R79"
 			(at 79.248 94.488 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6336,7 +6397,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "R88")
+					(reference "R79")
 					(unit 1)
 				)
 			)
@@ -6354,7 +6415,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6deb23f-ee38-49fc-95f8-fc492aa2d3dd")
-		(property "Reference" "#PWR0227"
+		(property "Reference" "#PWR0152"
 			(at 87.63 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -6414,7 +6475,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0227")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -6431,7 +6492,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d7184f8a-309d-43d9-97eb-ac238e50e5a1")
-		(property "Reference" "R98"
+		(property "Reference" "R76"
 			(at 53.34 89.408 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6504,7 +6565,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "R98")
+					(reference "R76")
 					(unit 1)
 				)
 			)
@@ -6522,7 +6583,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8a82796-6c1a-468e-a134-a27b9d0c70a1")
-		(property "Reference" "TP41"
+		(property "Reference" "TP22"
 			(at 56.134 64.008 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6584,7 +6645,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "TP41")
+					(reference "TP22")
 					(unit 1)
 				)
 			)
@@ -6602,7 +6663,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "daaafe0f-81bc-465c-9aaf-e337fd502f53")
-		(property "Reference" "#PWR0225"
+		(property "Reference" "#PWR0159"
 			(at 237.49 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -6662,7 +6723,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0225")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -6680,7 +6741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "decf8630-1f63-41c6-aced-7699fb3158b8")
-		(property "Reference" "TP45"
+		(property "Reference" "TP27"
 			(at 97.536 188.722 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6742,7 +6803,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "TP45")
+					(reference "TP27")
 					(unit 1)
 				)
 			)
@@ -6760,7 +6821,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0850fd2-5eae-4f2b-8d74-592c71006604")
-		(property "Reference" "C33"
+		(property "Reference" "C18"
 			(at 241.3 106.6799 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6835,7 +6896,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "C33")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -6853,7 +6914,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1f39aed-4875-4124-9628-36bc8fefc540")
-		(property "Reference" "TP42"
+		(property "Reference" "TP26"
 			(at 91.694 25.908 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6915,7 +6976,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "TP42")
+					(reference "TP26")
 					(unit 1)
 				)
 			)
@@ -6933,7 +6994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eb9abc30-3252-4b63-b63e-ab197826025f")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0157"
 			(at 215.9 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6993,7 +7054,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "#PWR0162")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -7140,7 +7201,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef43c4c0-1d36-440d-9674-e13dad552e19")
-		(property "Reference" "TP43"
+		(property "Reference" "TP29"
 			(at 141.224 74.168 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7202,7 +7263,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "TP43")
+					(reference "TP29")
 					(unit 1)
 				)
 			)
@@ -7219,7 +7280,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fa907f2a-e49f-47a3-b9d7-f9a0963aeb87")
-		(property "Reference" "R97"
+		(property "Reference" "R84"
 			(at 127 86.868 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7292,7 +7353,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/d7a0d514-c8b3-4ae1-930e-8f9ed8b9c82d"
-					(reference "R97")
+					(reference "R84")
 					(unit 1)
 				)
 			)

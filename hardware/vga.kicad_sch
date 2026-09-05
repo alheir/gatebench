@@ -2026,7 +2026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05512bc2-dd81-4275-bfd4-76fbffd4dff8")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR0177"
 			(at 175.26 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -2086,7 +2086,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "#PWR068")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -2103,7 +2103,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a8ccd59-003d-4adf-8f4a-cf3a2db6664a")
-		(property "Reference" "R15"
+		(property "Reference" "R118"
 			(at 124.46 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2176,7 +2176,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R15")
+					(reference "R118")
 					(unit 1)
 				)
 			)
@@ -2193,7 +2193,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fd87965-1296-4d46-8707-416138c53753")
-		(property "Reference" "R12"
+		(property "Reference" "R115"
 			(at 124.46 75.438 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2266,7 +2266,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R12")
+					(reference "R115")
 					(unit 1)
 				)
 			)
@@ -2363,7 +2363,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2ac38e2f-36c4-4645-aad6-de3b72cfb9df")
-		(property "Reference" "J4"
+		(property "Reference" "J6"
 			(at 157.48 75.692 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2479,7 +2479,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "J4")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -2497,7 +2497,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2dadb9a7-2e90-4e48-879b-ca5921944159")
-		(property "Reference" "C5"
+		(property "Reference" "C24"
 			(at 166.37 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2570,7 +2570,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "C5")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -2588,7 +2588,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37c59378-370e-456d-8bc5-cec490eaacfd")
-		(property "Reference" "TP35"
+		(property "Reference" "TP37"
 			(at 214.122 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2650,7 +2650,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "TP35")
+					(reference "TP37")
 					(unit 1)
 				)
 			)
@@ -2667,7 +2667,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "427113ec-7000-41d6-ad38-d1218180372f")
-		(property "Reference" "R11"
+		(property "Reference" "R114"
 			(at 124.46 70.358 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2740,7 +2740,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R11")
+					(reference "R114")
 					(unit 1)
 				)
 			)
@@ -2757,7 +2757,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "498f1a96-ccb5-4e05-8aec-79fb7dbec215")
-		(property "Reference" "R23"
+		(property "Reference" "R123"
 			(at 179.07 93.218 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2830,7 +2830,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R23")
+					(reference "R123")
 					(unit 1)
 				)
 			)
@@ -2848,7 +2848,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "54149952-d9ab-48a5-83d3-34c0246c74ef")
-		(property "Reference" "TP34"
+		(property "Reference" "TP38"
 			(at 214.122 59.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2910,7 +2910,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "TP34")
+					(reference "TP38")
 					(unit 1)
 				)
 			)
@@ -2927,7 +2927,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c498ae8-b3af-4654-bf82-3cca139f0385")
-		(property "Reference" "R22"
+		(property "Reference" "R122"
 			(at 166.116 108.458 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3000,7 +3000,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R22")
+					(reference "R122")
 					(unit 1)
 				)
 			)
@@ -3017,7 +3017,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6dbf4516-05f5-43ab-8fcc-8f65ae237a24")
-		(property "Reference" "R17"
+		(property "Reference" "R120"
 			(at 124.46 105.918 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3090,7 +3090,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R17")
+					(reference "R120")
 					(unit 1)
 				)
 			)
@@ -3107,7 +3107,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "799420f5-b25e-4ca2-a96d-bff8e394b68b")
-		(property "Reference" "R18"
+		(property "Reference" "R121"
 			(at 124.46 110.998 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3180,7 +3180,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R18")
+					(reference "R121")
 					(unit 1)
 				)
 			)
@@ -3197,7 +3197,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "83fd32ad-3786-4290-824d-27e53cb79113")
-		(property "Reference" "R14"
+		(property "Reference" "R117"
 			(at 124.46 88.138 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3270,7 +3270,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R14")
+					(reference "R117")
 					(unit 1)
 				)
 			)
@@ -3287,7 +3287,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8a826365-ec79-4154-8a4f-e6184ccf5fcd")
-		(property "Reference" "R10"
+		(property "Reference" "R113"
 			(at 124.46 65.278 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3360,7 +3360,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R10")
+					(reference "R113")
 					(unit 1)
 				)
 			)
@@ -3377,7 +3377,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8f781c8e-2019-451f-85c9-253000701d18")
-		(property "Reference" "R24"
+		(property "Reference" "R124"
 			(at 179.07 98.298 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3450,7 +3450,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R24")
+					(reference "R124")
 					(unit 1)
 				)
 			)
@@ -3468,7 +3468,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9d423e8e-3e27-4efe-873c-0a5eb849e2ba")
-		(property "Reference" "TP33"
+		(property "Reference" "TP39"
 			(at 214.122 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,7 +3530,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "TP33")
+					(reference "TP39")
 					(unit 1)
 				)
 			)
@@ -3548,7 +3548,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa991de4-8e5b-4526-960e-00a82374995b")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR0176"
 			(at 148.59 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -3608,7 +3608,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "#PWR057")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -3625,7 +3625,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be883164-5afb-485b-8fe5-67fe1456eb7c")
-		(property "Reference" "R16"
+		(property "Reference" "R119"
 			(at 124.46 100.838 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3698,7 +3698,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R16")
+					(reference "R119")
 					(unit 1)
 				)
 			)
@@ -3716,7 +3716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d6df9fcb-ef10-4cb6-b106-ed27fd2b08ad")
-		(property "Reference" "TP37"
+		(property "Reference" "TP35"
 			(at 214.122 44.45 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3778,7 +3778,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "TP37")
+					(reference "TP35")
 					(unit 1)
 				)
 			)
@@ -3795,7 +3795,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d71062f2-77d3-48cd-a265-288b55a58519")
-		(property "Reference" "R13"
+		(property "Reference" "R116"
 			(at 124.46 83.058 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3868,7 +3868,7 @@
 		(instances
 			(project "gatebench"
 				(path "/f24451ff-caac-4926-9774-6edc1451b63f/a3c4557c-c544-4f42-ade0-8584472233ea"
-					(reference "R13")
+					(reference "R116")
 					(unit 1)
 				)
 			)
